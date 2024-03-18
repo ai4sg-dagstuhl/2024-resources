@@ -33,4 +33,21 @@ The problem: how do we ensure that the model accuracy is _fair_, i.e. consistent
 * A simple API-based tool to check for duplicates: [dedupliface](https://github.com/rodekruis/dedupliface)
 * A [theoretical workflow](https://docs.google.com/presentation/d/1Jk-YyoFrbRWyBN20zf_ykCJwZjD6lkULALW_XwK2_zU/edit#slide=id.p) to monitor fairness in production
 
- 
+ ## Legal advice to vulnerable people
+ #### Context
+The aim is to profile elderly people in order to give them legal personalized information on loss of autonomy. In order to profile them, we collect data (personal situation, family situation, estate, health situation). Language is French.
+
+#### Code and tools
+* We decided to focus on the more complicated part: health situation and more precisely, is the person has cognitive impairment (or assimilated as severe anxiety/tiredness). See [the notebook](https://drive.google.com/file/d/1fCl14qeEqoOxtzuhj__Z4Z0T3xiCYlW8/view?usp=sharing).
+* [`FlauBERT`](https://huggingface.co/docs/transformers/model_doc/flaubert) was the most performing model (0,80 accuracy).
+
+## Tracking Narrative Changes
+#### Context
+To more effectively measure the results of _narrative work_, i.e. communication campaigns, through tracking and analysing shifts in narratives around specific issues and subjects, harnessing the power of artificial intelligence. By achieving this aim, this pilot shall contribute to enhancing the effectiveness of our narrative change strategies/interventions, thanks to the provision of information and data that support adaptive management and evidence-based decision-making.  Ultimately, we want our narrative work to align with the needs and lived realities of the people we work with and the targeted audiences.
+
+#### Code and tools
+See [dedicated repo](https://github.com/ginic/oxfam-text-analysis)
+
+
+
+  
